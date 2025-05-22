@@ -149,7 +149,7 @@ namespace Lab08
 
                 chart.ShowLegend();
 
-                string chartPath = Path.Combine(outputDirectory, $"chart-{chartNumber}.png");
+                string chartPath = Path.Combine(outputDirectory, $"p-{chartNumber}.png");
                 chart.SavePng(chartPath, 1400, 900);
             }
         }
